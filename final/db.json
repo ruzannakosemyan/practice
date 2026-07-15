@@ -1,0 +1,211 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "Vardan Hambardzumyan",
+      "age": 34,
+      "phone": "077223202",
+      "gender": "Male",
+      "bloodType": "O+"
+    },
+    {
+      "id": "2",
+      "name": "David Grigoryan",
+      "age": 40,
+      "phone": "077222222",
+      "gender": "Male",
+      "bloodType": "O+"
+    },
+    {
+      "id": "3",
+      "name": "Mariam Sargsyan",
+      "age": 32,
+      "phone": "091333333",
+      "gender": "Female",
+      "bloodType": "B+"
+    },
+    {
+      "id": "4",
+      "name": "Arman Petrosyan",
+      "age": 55,
+      "phone": "093444444",
+      "gender": "Male",
+      "bloodType": "AB+"
+    },
+    {
+      "id": "5",
+      "name": "Lilit Martirosyan",
+      "age": 28,
+      "phone": "094555555",
+      "gender": "Female",
+      "bloodType": "A-"
+    },
+    {
+      "id": "6",
+      "name": "Hayk Karapetyan",
+      "age": 46,
+      "phone": "095666666",
+      "gender": "Male",
+      "bloodType": "O-"
+    },
+    {
+      "id": "7",
+      "name": "Nare Avetisyan",
+      "age": 21,
+      "phone": "096777777",
+      "gender": "Female",
+      "bloodType": "B-"
+    },
+    {
+      "id": "8",
+      "name": "Gor Hakobyan",
+      "age": 60,
+      "phone": "097888888",
+      "gender": "Male",
+      "bloodType": "O+"
+    },
+    {
+      "id": "9",
+      "name": "Sona Hovsepyan",
+      "age": 36,
+      "phone": "098999999",
+      "gender": "Female",
+      "bloodType": "AB-"
+    },
+    {
+      "id": "10",
+      "name": "Tigran Vardanyan",
+      "age": 50,
+      "phone": "099000000",
+      "gender": "Male",
+      "bloodType": "A+"
+    },
+    {
+      "name": "Anun Azganun",
+      "age": "19",
+      "phone": "010203040",
+      "id": "6Am-12hxy84"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Aram Hakobyan",
+      "specialization": "Cardiologist",
+      "experience": 12
+    },
+    {
+      "id": "2",
+      "name": "Dr. John Smith",
+      "specialization": "Surgeon",
+      "experience": 15
+    },
+    {
+      "id": "3",
+      "name": "Dr. Ani Sargsyan",
+      "specialization": "Neurologist",
+      "experience": 10
+    },
+    {
+      "id": "4",
+      "name": "Dr. Karen Petrosyan",
+      "specialization": "Therapist",
+      "experience": 8
+    },
+    {
+      "id": "5",
+      "name": "Dr. Maria Williams",
+      "specialization": "Pediatrician",
+      "experience": 14
+    },
+    {
+      "id": "6",
+      "name": "Dr. Davit Grigoryan",
+      "specialization": "Orthopedist",
+      "experience": 11
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "patientId": 1,
+      "doctorId": 2,
+      "date": "2026-07-15",
+      "time": "10:30",
+      "status": "Confirmed"
+    },
+    {
+      "id": "2",
+      "patientId": 2,
+      "doctorId": 1,
+      "date": "2026-07-16",
+      "time": "12:00",
+      "status": "Confirmed"
+    },
+    {
+      "id": "3",
+      "patientId": 3,
+      "doctorId": 3,
+      "date": "2026-07-17",
+      "time": "09:30",
+      "status": "Waiting"
+    },
+    {
+      "id": "4",
+      "patientId": 4,
+      "doctorId": 4,
+      "date": "2026-07-18",
+      "time": "15:00",
+      "status": "Confirmed"
+    },
+    {
+      "id": "5",
+      "patientId": 5,
+      "doctorId": 5,
+      "date": "2026-07-19",
+      "time": "11:00",
+      "status": "Cancelled"
+    },
+    {
+      "id": "6",
+      "patientId": 6,
+      "doctorId": 6,
+      "date": "2026-07-20",
+      "time": "14:30",
+      "status": "Confirmed"
+    },
+    {
+      "id": "7",
+      "patientId": 7,
+      "doctorId": 3,
+      "date": "2026-07-21",
+      "time": "16:00",
+      "status": "Waiting"
+    },
+    {
+      "id": "8",
+      "patientId": 8,
+      "doctorId": 1,
+      "date": "2026-07-22",
+      "time": "10:00",
+      "status": "Confirmed"
+    },
+    {
+      "id": "9",
+      "patientId": 9,
+      "doctorId": 5,
+      "date": "2026-07-23",
+      "time": "13:30",
+      "status": "Confirmed"
+    },
+    {
+      "patientId": "6Am-12hxy84",
+      "doctorId": 5,
+      "date": "2026-07-15",
+      "time": "09:00",
+      "status": "Confirmed",
+      "id": "4GMSRH5bchk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
