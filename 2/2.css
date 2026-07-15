@@ -1,0 +1,30 @@
+body{
+font-family: Arial, sans-serif;
+background:#f4f4f4;
+padding:30px;
+}
+h1{
+text-align:center;
+}
+button{
+padding:12px 20px;
+background:#333;
+color:white;
+border:none;
+cursor:pointer;
+margin-bottom:20px;
+}
+.user-card{
+background:white;
+padding:20px;
+margin:15px;
+border-radius:10px;
+box-shadow:0 0 10px #ccc;
+}
+.delete-btn{
+background:red;
+color:white;
+padding:8px;
+border:none;
+cursor:pointer;
+}
